@@ -1,7 +1,7 @@
 # react-mobile-color-picker
 color picker developed by react
 
-## compinents props:
+## component props:
 ### onChange:Function
 ### valueMode:String  
 Using this property u can set the output format of the component    
