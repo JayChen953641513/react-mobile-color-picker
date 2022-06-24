@@ -30,7 +30,7 @@
 
 .react-color-list-level-one{
     position: relative;
-    margin: 10px 0;
+    margin: 20px 0;
     display: flex;
     height: 5vw;
     align-items: center;
@@ -38,17 +38,23 @@
     background-image: linear-gradient(to right,#ff0000,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff);
 
 }
-.react-color-list-level-one-slider{
+.react-color-list-level-one-slider,.react-color-list-level-two-slider,.react-color-list-level-three-slider{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 5vw;
     height: 8vw;
     box-sizing: border-box;
-    border:2px dotted #fff;
+    /* border:2px dotted #fff; */
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.6);
 }
-/* .react-color-list-level-one-item{
-    width: 100%;
+
+.react-color-list-level-two,.react-color-list-level-three{
+    position: relative;
+    margin: 20px 0;
+    display: flex;
     height: 5vw;
-    
-} */
+    align-items: center;
+    justify-content: center;
+}
